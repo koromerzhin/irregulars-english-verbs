@@ -5,7 +5,7 @@
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/votre-nom/nom-du-repo.git"
+    "url": "https://github.com/koromerzhin/irregulars-english-verbs.git"
   },
   "scripts": {
     "lauch": "electron .",
@@ -14,7 +14,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "Votre Nom",
+  "author": "Koromerzhin",
   "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^7.5.0",
