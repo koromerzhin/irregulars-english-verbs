@@ -8,7 +8,7 @@
     "url": "https://github.com/koromerzhin/irregulars-english-verbs.git"
   },
   "scripts": {
-    "lauch": "electron .",
+    "launch": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron-forge start",
     "package": "electron-forge package",

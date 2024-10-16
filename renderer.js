@@ -28,12 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const userPast = document.getElementById('past').value.trim().toLowerCase();
     const userPastParticiple = document.getElementById('pastParticiple').value.trim().toLowerCase();
 
-    const correctPast = verb.past.toLowerCase();
-    const correctPastParticiple = verb.pastParticiple.toLowerCase();
-
     let feedback = '';
 
-    if (correctPast.includes(userPast) && correctPastParticiple.includes(userPastParticiple)) {
+    if (verb.past.includes(userPast) && verb.pastParticiple.includes(userPastParticiple)) {
       feedback = 'Correct !';
     } else {
       feedback = `Incorrect. Le prétérit est "${verb.past.join(', ')}" et le participe passé est "${verb.pastParticiple.join(', ')}".`;
