@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Verbes Irréguliers</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <h1>Vérifiez vos connaissances sur les verbes irréguliers</h1>
+        <div id="quiz-section">
+            <p id="verb-question">Verbe : <span id="verb-base"></span></p>
+            <form id="quiz-form">
+                <label for="past">Prétérit :</label>
+                <input type="text" id="past" name="past">
+                <label for="pastParticiple">Participe passé :</label>
+                <input type="text" id="pastParticiple" name="pastParticiple">
+                <button type="submit">Vérifier</button>
+            </form>
+            <p id="feedback"></p>
+            <button id="next-button" style="display:none;">Suivant</button>
+        </div>
+        <script src="renderer.js"></script>
+    </body>
+
+</html>

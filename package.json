@@ -1,0 +1,33 @@
+{
+  "name": "irregulars-english-verbs",
+  "version": "1.0.0",
+  "description": "Une application pour vérifier les verbes irréguliers.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-nom/nom-du-repo.git"
+  },
+  "scripts": {
+    "lauch": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Votre Nom",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^33.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
