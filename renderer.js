@@ -33,10 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let feedback = '';
 
-    if (userPast === correctPast && userPastParticiple === correctPastParticiple) {
+    if (correctPast.includes(userPast) && correctPastParticiple.includes(userPastParticiple)) {
       feedback = 'Correct !';
     } else {
-      feedback = `Incorrect. Le prétérit est "${verb.past}" et le participe passé est "${verb.pastParticiple}".`;
+      feedback = `Incorrect. Le prétérit est "${verb.past.join(', ')}" et le participe passé est "${verb.pastParticiple.join(', ')}".`;
     }
 
     document.getElementById('feedback').textContent = feedback;
